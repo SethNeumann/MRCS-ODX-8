@@ -1,10 +1,18 @@
-### How to use this template:
+High Density Expandable cpOD-M motherboard.  Jon Robinson requested a larger motherboard
+comparable to Dr. Chubb's ODMB. The plan is to get as many cpOD-Ms as possible into a 7
+x 15 CM board and provide connectors for expansion. He also requested keeping the logic 
+level outputs away from the block power outputs.  The board will be expandable via an end
+connector.  More than two are not recommended as the copper is only good for about 5 Amps.
 
-  1. Create a repo using this template, 
-  2. Create your project content using eagle...
-  3. Edit the other text files to describe your project
-  4. git add .
-  5. git commit -m "add to git"
-  6. git tag -a 1.0 -m 1.0
-  7. git push origin 1.0
-  
+ODX-8 are backward compatible with current cpOD-Ms, but mechanically will not fit DCC-ODs.
+No software changes are needed.
+
+- Board size 2.7" x 5.8" (69x150 mm)
+
+- DCC Bus connections are 5 mm screw terminal blocks or 0.156 connector for expansion
+
+- power, Ground, and Detector output connections are on a 10-position .100 (2.54 mm) screw terminal block.
+
+The ODX-8 provides an economical and convenient mounting for up to eight cpOD-M detectors 
+
+The ODX-8 mounts in our DIN-Rail snap track.
