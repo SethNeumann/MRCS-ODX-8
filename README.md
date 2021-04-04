@@ -1,33 +1,22 @@
-# REPO NAME: EagleTemplate-new
-## License: CERN Open Hardware Licence v1.2
+# REPO NAME: MRCS-ODX-8
 ## License: Creative Commons Attribution-NonCommercial-ShareAlike
 
-Delete one of the license lines above, and replace this line and following with the contents of the doc.md file
+High Density Expandable cpOD-M motherboard.  Jon Robinson requested a larger motherboard
+comparable to Dr. Chubb's ODMB. The plan is to get as many cpOD-Ms as possible into a 7
+x 15 CM board and provide connectors for expansion. He also requested keeping the logic 
+level outputs away from the block power outputs.  The board will be expandable via an end
+connector.  More than two are not recommended as the copper is only good for about 5 Amps.
 
-### How to use this template:
+ODX-8 are backward compatible with current cpOD-Ms, but mechanically will not fit DCC-ODs.
+No software changes are needed.
 
-  1. Create a repo using this template, 
-  2. Use eagle to create your project
-  3. Edit the other text files to describe your project
-  4. git add .
-  5. git commit -m "add to git"
-  6. git tag -a 1.0 -m 1.0
-  7. git push origin 1.0
-  
+- Board size 2.7" x 5.8" (69x150 mm)
 
-This is a template for new eagle designs.
-It includes a blank schematic with a title block ready for editing and a
-default PCB that uses the SPCoast.lbr's BOARD component, Fiducials and an OSHW logo.
+- DCC Bus connections are 5 mm screw terminal blocks.
 
-First line: A short description of the project, used as a subtitle or tagline
+- power, Ground, and Detector output connections are on a 10-position .100 (2.54 mm) screw terminal block.
 
-Remaining lines: a verbose changelog of what makes this "git version" different from the last.
-Use this space (in Markdown format) to describe the context and details of the changes.
-This section should be 5 to 20 lines of interesting detail; each version tab in the project will 
-display this text to help the reader understand why this version is differnet...
+The ODX-8 provides an economical and convenient mounting for up to eight cpOD-M detectors 
 
-The published project on the SPCoast.github.io website will
-include the relevant git commit messages as a terse, high level
-changelog, so don't replicate those messages here.
-
+The ODX-8 mounts in our DIN-Rail snap track.
 
