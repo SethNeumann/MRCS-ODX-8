@@ -1,4 +1,8 @@
-First line: A short description of the project, used as a subtitle ot tagline
+High Density Expandable cpOD-M motherboard.  Jon Robinson requested a larger motherboard
+comparable to Dr. Chubb's ODMB. The plan is to get as many cpOD-Ms as possible into a 7
+x 15 CM board and provide connectors for expansion. He also requested keeping the logic 
+level outputs away from the block power outputs.  The board will be expandable via an end
+connector.  More than two are not recommended as the copper is only good for about 5 Amps.
 
 Remaining lines: a verbose changelog of what makes this "git version" different from the last.
 Use this space (in Markdown format) to describe the context and details of the changes.
