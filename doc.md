@@ -1,6 +1,6 @@
 High Density Expandable cpOD-M motherboard.  Jon Robinson requested a larger motherboard
-comparable to Dr. Chubb's ODMB. The plan is to get as many cpOD-Ms as possible into a 7
-x 15 CM board and provide connectors for expansion. He also requested keeping the logic 
+comparable to Dr. Chubb's ODMB. The requirement is to get as many cpOD-Ms as possible into a 7
+x 15 CM board and provide connectors for expansion. Jon also requested keeping the logic 
 level outputs away from the block power outputs.  The board will be expandable via an end
 connector.  More than two are not recommended as the copper is only good for about 5 Amps.
 
@@ -15,4 +15,4 @@ No software changes are needed.
 
 The ODX-8 provides an economical and convenient mounting for up to eight cpOD-M detectors 
 
-The ODX-8 mounts in our DIN-Rail snap track.
+The ODX-8 mounts in DIN-Rail 70mm snap track or with #4 screws
