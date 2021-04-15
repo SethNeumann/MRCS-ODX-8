@@ -1,7 +1,7 @@
 title: MRCS-ODX-8
 designer: Seth Neumann
-fabricated: Pick one of   yes, no
-fab_date: YYYY-MM
+fabricated: yes
+fab_date: 2021-04
 status: experimental
 publish: yes
 tags: [MRCS, SPCoast, eagle]
